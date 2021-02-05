@@ -157,7 +157,7 @@ def time_stats(df):
     print('Most Popular Start Hour:', popular_hour)
 
 
-    print("\nThis took %s seconds." % round((time.time() - start_time),3))
+    print("\nThis took %s seconds." % round((time.time() - start_time),2))
     print('-'*40)
 
 

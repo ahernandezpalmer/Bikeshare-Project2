@@ -180,7 +180,7 @@ def station_stats(df):
     print('Most commonly used Start-End Station: ', popular_start_end_station)
 
 
-    print("\nThis took %s seconds." % round((time.time() - start_time),3))
+    print("\nThis took %s seconds." % round((time.time() - start_time),2))
     print('-'*40)
 
 
@@ -198,7 +198,7 @@ def trip_duration_stats(df):
     mean_trip_duration=df['Trip Duration'].mean()
     print('Mean trip duration: ', round(mean_trip_duration))
     
-    print("\nThis took %s seconds." % round((time.time() - start_time),3))
+    print("\nThis took %s seconds." % round((time.time() - start_time),2))
     print('-'*40)
 
 
@@ -233,7 +233,7 @@ def user_stats(df,city):
         except ValueError:
             print('That is not a valid city')
     
-    print("\nThis took %s seconds." % round((time.time() - start_time),3))
+    print("\nThis took %s seconds." % round((time.time() - start_time),2))
     print('-'*40)
 
 
